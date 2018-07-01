@@ -10,6 +10,9 @@ import { APP_ROUTES } from './app.router';
 // Modulos
 import { AppComponent } from './app.component';
 
+// Services
+import { ServiceModule } from './providers/service.module';
+
 // Componentes
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register/register.component';
@@ -27,7 +30,8 @@ import { PageModule } from './pages/pages.module';
     APP_ROUTES,
     PageModule,
     FormsModule,
-    ChartsModule
+    ChartsModule,
+    ServiceModule
   ],
   providers: [
   ],

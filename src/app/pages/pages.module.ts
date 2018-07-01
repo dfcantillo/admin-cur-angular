@@ -13,6 +13,7 @@ import { ChartsModule } from 'ng2-charts';
 // Temprar
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 @NgModule({
 declarations: [
@@ -21,7 +22,8 @@ declarations: [
     ProgressComponent,
     Graficas1Component,
     IncrementadorComponent,
-    GraficoDonaComponent
+    GraficoDonaComponent,
+    AccoutSettingsComponent
 ],
 exports : [
     PagesComponent,
