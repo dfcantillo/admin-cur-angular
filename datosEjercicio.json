@@ -1,0 +1,45 @@
+[{
+        nombre: 'pipitico',
+        edad: 40,
+        altura: 1.95,
+        colorFavorito: 'verde',
+        padres: {
+            madre: 'pepita',
+            padre: 'pepito'
+        },
+        tieneGato: true
+    },
+    {
+        nombre: 'Maria',
+        edad: 30,
+        altura: 1.75,
+        colorFavorito: 'Azul',
+        padres: {
+            madre: 'Maria',
+            padre: 'pedro'
+        },
+        tieneGato: false
+    },
+    {
+        nombre: 'Lucia',
+        edad: 30,
+        altura: 1.65,
+        colorFavorito: 'gris',
+        padres: {
+            madre: 'Rosa',
+            padre: 'Manolo'
+        },
+        tieneGato: false
+    },
+    {
+        nombre: 'Pedro',
+        edad: 15,
+        altura: 1.65,
+        colorFavorito: 'morado',
+        padres: {
+            madre: 'Camila',
+            padre: 'Perez'
+        },
+        tieneGato: true
+    }
+]

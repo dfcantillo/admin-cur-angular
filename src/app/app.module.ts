@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ChartsModule } from 'ng2-charts';
 
+// Temporal
+import { FormsModule } from '@angular/forms';
 // Rutas
 import { APP_ROUTES } from './app.router';
 
@@ -22,7 +25,9 @@ import { PageModule } from './pages/pages.module';
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PageModule
+    PageModule,
+    FormsModule,
+    ChartsModule
   ],
   providers: [
   ],

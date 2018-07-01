@@ -1,0 +1,19 @@
+<label for="">{{leyenda}}</label>
+<div class="input-group mb-3">
+    <div class="input-group-btn">
+        <button class="btn btn-outline-primary" (click)="cambiarValor(-5)" type="button">
+                            <i class="mdi mdi-minus"></i>
+                        </button>
+    </div>
+    <input type="number" class="form-control" name="valorProgress" [(ngModel)]="valorProgress" min="0" max="100">
+    <div class="input-group-btn">
+        <button class="btn btn-outline-primary" (click)="cambiarValor(+5)" type="button">
+                          <i class="mdi mdi-plus"></i>
+                        </button>
+    </div>
+</div>
+
+<!-- mensaje -->
+<div *ngIf="mostrarMensaje" class="alert alert-primary animated pulse" role="alert">
+    {{mensaje}}
+</div>
