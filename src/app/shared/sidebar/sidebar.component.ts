@@ -9,7 +9,6 @@ import { SidebarService } from '../../providers/service.index';
 export class SidebarComponent implements OnInit {
 
   constructor(public _sidebar: SidebarService) { 
-    console.log(_sidebar.menu);
     
   }
 
